@@ -1,0 +1,78 @@
+body {
+  background-image: url(http://th00.deviantart.net/fs70/PRE/f/2012/321/d/4/dandelion_by_lodchen_photography-d5l9z7h.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+section{
+  background-color: rgba(10,186,181,0.3);
+  width: 60%;
+  padding: 10%; /* spacing inside section */
+  margin: 5% auto; /* spacing outside section. auto centralises stuff */
+  color: rgb(65,65,65);
+  text-align: center;
+  border-radius: 50%;
+  font-family: 'Poiret One', cursive;
+}
+
+h1{
+  color: rgb(150,150,150);
+  font-size: 40px;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+input{
+  color: rgb(133,72,184);
+  text-align: center;
+  padding: 0.5%;
+  margin: auto;
+  width: 70%;
+  height: 5%;
+  border-radius: 10px;
+  border: 25px;
+  font-weight: bold;
+}
+
+@media (min-width: 500px){
+  section{
+    width: 40%;
+    background-color: rgba(133,72,184,0.2);
+    padding: 3%; /* spacing inside section */
+  }
+  h1{
+    color: white;
+  }
+}
+
+section2{
+  width: 80%;
+  font-family: 'Poiret One', cursive;
+  color: white;
+  text-align: center;
+  margin: auto;
+}
+
+a{
+ color: rgb(255,220,0); 
+}
+
+section3{
+  width: 60%;
+  font-family: 'Poiret One', cursive;
+  text-align: center;
+  color: rgb(180,180,180);
+  margin: auto;
+}
+
+@font-face {
+  font-family: 'Poiret One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Poiret One'), local('PoiretOne-Regular'), url(http://fonts.gstatic.com/s/poiretone/v4/HrI4ZJpJ3Fh0wa5ofYMK8fk_vArhqVIZ0nv9q090hN8.woff2) format('woff2'), url(http://fonts.gstatic.com/s/poiretone/v4/HrI4ZJpJ3Fh0wa5ofYMK8RsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Shadows Into Light';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Shadows Into Light'), local('ShadowsIntoLight'), url(http://fonts.gstatic.com/s/shadowsintolight/v6/clhLqOv7MXn459PTh0gXYFK2TSYBz0eNcHnp4YqE4Ts.woff2) format('woff2'), url(http://fonts.gstatic.com/s/shadowsintolight/v6/clhLqOv7MXn459PTh0gXYHW1xglZCgocDnD_teV2lMU.woff) format('woff');
+}
